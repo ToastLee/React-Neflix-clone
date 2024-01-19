@@ -8,3 +8,5 @@ const instance = axios.create({
     language: "ko-KR",
   },
 });
+
+export default instance;
