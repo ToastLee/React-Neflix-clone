@@ -21,7 +21,7 @@ export default function Row({title, fetchUrl, isLargeRow, id}) {
 
   useEffect(() => {
     fetchMovieData();
-  }, [fetchUrl]);
+  }, []);
 
   const fetchMovieData = async () => {
     //axios를 이용해 비동기 요청 import 주의!
